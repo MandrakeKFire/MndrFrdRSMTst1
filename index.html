@@ -1,31 +1,65 @@
-<header>
-  <img src="images/Fred.png" alt="Profile Picture" class="profile-img">
-  <h1>Alfredo Garcia</h1>
-  <h2>Data Scientist | Project Manager | Chemical Engineer</h2>
-  <div class="social-links">
-    <a href="https://www.linkedin.com/in/tu_usuario" target="_blank">LinkedIn</a> |
-    <a href="https://github.com/mandrakekfire" target="_blank">GitHub</a> |
-    <a href="CV.pdf" download>Download CV (PDF)</a>
-  </div>
-</header>
-<canvas id="skillsChart" width="400" height="200"></canvas>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
-const ctx = document.getElementById('skillsChart').getContext('2d');
-const skillsChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: ['Python', 'SQL', 'Machine Learning', 'Azure', 'Tableau', 'Project Mgmt'],
-        datasets: [{
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alfredo Garcia - Resume</title>
+  <meta name="description" content="Explore the professional resume of Alfredo Garcia, Data Scientist and Project Manager." />
+  <meta name="keywords" content="Alfredo Garcia, Data Scientist, Resume, Portfolio, Project Manager" />
+  <meta property="og:title" content="Resume - Alfredo Garcia" />
+  <meta property="og:description" content="Professional profile of Alfredo Garcia, including experience, skills, and credentials." />
+  <meta property="og:image" content="images/Fred.png" />
+  <meta property="og:url" content="https://mandrakekfire.github.io/My_Resume/" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <img src="images/Fred.png" alt="Profile Picture" class="profile-img" />
+    <h1>Alfredo Garcia</h1>
+    <h2>Data Scientist | Project Manager | Chemical Engineer</h2>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/alfredo-garcia-267a19308/" target="_blank">LinkedIn</a> |
+      <a href="mailto:alfredogarciaingquim@protonmail.com">Email</a> |
+      <a href="https://www.credly.com/users/fredgarciakr" target="_blank">Credly</a>
+    </div>
+  </header>
+
+  <section class="section">
+    <h2>Professional Summary</h2>
+    <p>Industrial Chemical Engineer with strong experience as a Data Scientist and Project Manager. Skilled in Python, SQL, machine learning, and cloud tools (Azure, AWS). Proven success leading maintenance and data analysis projects, optimizing resource use, and driving business decisions through insightful data visualizations and predictive modeling. Highly organized, analytical, and committed to delivering impactful solutions.</p>
+  </section>
+
+  <section class="section">
+    <h2>Skills Overview</h2>
+    <canvas id="skillsChart" width="400" height="200"></canvas>
+    <script>
+      const ctx = document.getElementById('skillsChart').getContext('2d');
+      new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['Python', 'SQL', 'Machine Learning', 'Azure', 'Tableau', 'Project Mgmt'],
+          datasets: [{
             label: 'Skill Level (1-10)',
-            data: [9, 8, 7, 6, 7, 9],
+            data: [9, 8, 8, 7, 7, 9],
             backgroundColor: 'rgba(52, 152, 219, 0.6)'
-        }]
-    },
-    options: {
-        scales: {
-            y: { beginAtZero: true, max: 10 }
+          }]
+        },
+        options: {
+          responsive: true,
+          scales: {
+            y: {
+              beginAtZero: true,
+              max: 10
+            }
+          }
         }
-    }
-});
-</script>
+      });
+    </script>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Alfredo Garcia | Contact: <a href="mailto:alfredogarciaingquim@protonmail.com">alfredogarciaingquim@protonmail.com</a></p>
+  </footer>
+</body>
+</html>
