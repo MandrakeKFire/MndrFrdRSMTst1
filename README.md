@@ -1,4 +1,3 @@
 # MndrFrdRSMTst1
-Resume Test 1
-2
+Resume Test
 
