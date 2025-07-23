@@ -1,2 +1,2 @@
 # MndrFrdRSMTst1
-Resume Test1231256
+Resume Test
