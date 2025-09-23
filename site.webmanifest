@@ -1,12 +1,11 @@
 {
-  "name": "Alfredo Garcia | Resume & Portfolio",
-  "short_name": "AG Resume",
-  "description": "Personal portfolio and resume of Alfredo Garcia - Data Scientist, Project Manager, and Industrial Chemical Engineer.",
-  "start_url": "/MndrFrdRSMTst1/index.html",
+  "name": "Alfredo Garcia - Portafolio Profesional",
+  "short_name": "CV Alfredo G.",
+  "description": "Portafolio y CV interactivo de Alfredo Garcia, Analista de Datos e Ingeniero Químico.",
+  "start_url": ".",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#0f172a",
-  "orientation": "portrait",
+  "background_color": "#f4f6f8",
+  "theme_color": "#2c3e50",
   "icons": [
     {
       "src": "images/icons/android-chrome-192x192.png",
@@ -16,21 +15,6 @@
     {
       "src": "images/icons/android-chrome-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
-    },
-    {
-      "src": "images/icons/apple-touch-icon.png",
-      "sizes": "180x180",
-      "type": "image/png"
-    },
-    {
-      "src": "images/icons/favicon-32x32.png",
-      "sizes": "32x32",
-      "type": "image/png"
-    },
-    {
-      "src": "images/icons/favicon-16x16.png",
-      "sizes": "16x16",
       "type": "image/png"
     }
   ]
